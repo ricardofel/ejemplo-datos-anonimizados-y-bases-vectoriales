@@ -221,3 +221,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Proyecto: base vectorial local y configuracion local de herramientas
+chroma_db/
+.claude/settings.local.json

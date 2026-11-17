@@ -1,0 +1,10 @@
+# Dependencias fijadas (probadas con Python 3.11 en Windows 11)
+presidio-analyzer==2.2.366
+presidio-anonymizer==2.2.366
+spacy==3.8.18
+chromadb==1.5.9
+ollama==0.6.3
+rich==15.0.0
+pytest==9.2.0
+# Modelo de spaCy en espanol (se descarga una sola vez durante la instalacion)
+es_core_news_md @ https://github.com/explosion/spacy-models/releases/download/es_core_news_md-3.8.0/es_core_news_md-3.8.0-py3-none-any.whl#sha256=478b8bb3f3e8eb149192f7d80e7cd64f990b7e9bccbc5329df41a57e86326be2
